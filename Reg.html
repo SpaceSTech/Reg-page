@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/css/reg.css">
+    
+  </head>
+  <body>
+    <!-- <input type="" /> -->
+    <h1>Registration Form</h1>
+    <p>Kindly fill out the form with the required infomation.</p>
+    <form action="">
+      <fieldset>
+        <label for="text">Enter your First Name: <input type="text" /></label>
+        <label for="text">Enter your Last Name: <input type="text" /></label>
+        <label for="email">Enter your Email: <input type="email" class="email" /></label>
+        <label for="tel">Your PhoneNumber: <input type="tel" /></label>
+        <label for="password"
+          >Create New Password: <input type="password"
+        /></label>
+        <label for="password"
+          >Confirm Password: <input type="password"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label for=""
+          ><input class="account" type="radio" name="account-type" checked />Personal
+          Account</label
+        >
+        <label for=""
+          ><input class="account" type="radio" name="account-type" />Become a
+          Vendor/Distributor</label
+        >
+        <label for=""
+          ><input class="account" type="radio" name="account-type" />Affliate
+          Account</label
+        >
+        <label for=""
+          ><input class="account" type="checkbox" name="T&Cs" checked />I agree
+          to all <a href="#">terms and conditions</a></label
+        >
+      </fieldset>
+      <fieldset>
+        <label for="">Upload a profile picture: <input type="file" /></label>
+        <label for="">Input your Date of Birth: <input type="date" /></label>
+        <label for=""
+          >How did you hear about Us?
+          <select name="referrer">
+            <option value="referrer" disabled selected>
+              Social Media Platform
+            </option>
+            <option value="referrer">Facebook Post</option>
+            <option value="referrer">LinkedIn post</option>
+            <option value="referrer">From Our Website</option>
+          </select>
+        </label>
+        <label for="">Tell us your Interest:</label>
+        <textarea
+          name="bio"
+          id="bio"
+          cols="30"
+          rows="4"
+          placeholder="I am interested in..."
+        ></textarea>
+      </fieldset>
+      <input type="submit" value="Submit" class="submitbtn" />
+    </form>
+    <!-- This is just a practice  regisrtaion form. The End!! -->
+
+  </body>
+</html>
